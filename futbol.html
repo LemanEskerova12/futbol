@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futbol</title>
+    <style>
+         * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-image: url(123.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 100%;
+            width: 100%;
+        }
+        .le {
+            width: 100%;
+            height: 100%;
+
+        }
+
+        .e {
+            float: left;
+            height: 350px;
+            width: 350px;
+            background-image: url(r.png);
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            margin-top: 150px;
+            margin-left: 150px;
+            transition: .4s;
+            transform: rotateZ(0);
+        }
+        
+
+        .e:hover {
+            scale: 1.03;
+            transform: rotateZ(-50deg);
+        }
+
+        .top {
+            height: 80px;
+            width: 80px;
+            background-image: url(top.png);
+            background-size: cover;
+            position: absolute;
+            margin-top: 400px;
+            margin-left: 400px;
+            transition: .4s;
+            transform: translate(0 0);
+                }
+
+            .top:hover {
+            scale: 1;
+            transform: translate(550px, 20px);
+            }
+
+        .k {
+            float: right;
+            height: 600px;
+            width: 600px;
+            background-image: url(qapi.png);
+            background-size: cover;
+            margin: auto;
+            transition: .4s;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="al">
+
+        <div class="le">
+            <div class="e"></div>
+
+            <div class="k"></div>
+        </div>
+
+        <div class="top"></div>
+</div>
+</body>
+</html>
